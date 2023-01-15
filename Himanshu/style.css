@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* top head */
+.tophead{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.backgroundhead{
+    padding-top: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 1px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.backgroundhead ul li a{
+    font-size: 13px;
+}
+
+.backgroundhead ul li .btn{
+    height: 30px;
+    border-radius: 20px;
+}
+/* top head end */
+/* slider Stsrt */
+.carousel-item .carousel-caption{
+    text-align: left;
+    top: 40%;
+}
+/* slider End */
+
+
+/* marquee start */
+.marquee{
+    background-color: rgb(232, 251, 216);
+    box-shadow: 0px,0px,9px,2px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* marquee end */
+
+/* Nav bar start.. */
+.navbar{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    
+}
+/* Nav bar End.. */
+
+/* About Start */
+.research{
+    border-radius: 10px;
+    box-shadow: 0px,0px,22px,5px;
+}
+.class{
+    
+    padding: 25px;
+    background-color: rgb(224, 253, 206);
+    border-radius: 10px;
+    box-shadow: 0px,0px,5px,2px;
+    border-bottom: 4px solid rgba(81, 84, 81, 0.048);
+    transition: all 0.4s;
+}
+.class:hover{
+    transform: translateY(-8px);
+    border-bottom: 5px solid rgb(19, 171, 39);
+}
+/* About Start */
+
+
+/* why Us  start*/
+.whyus{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(250, 250, 241);
+}
+.why{
+    color: rgb(29, 29, 29);
+    padding: 20px;
+    background-color: rgb(237, 240, 228);
+    border-radius: 10px;
+    box-shadow: 0px,0px,10px,2px;
+    border-bottom: 5px solid rgba(96, 98, 97, 0.483);
+    transition: all 0.3s;
+}
+.why:hover{
+    transform: translateY(-8px);
+    border-bottom: 4px solid green;
+}
+/* why us end */
+/* who Start */
+.who{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+#banked{
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+/* who end */
+/* what start */
+#what{
+    background-color: rgb(237, 237, 235);
+    padding-bottom: 40px;
+}
+/* what end */
+/* how it work start */
+.work{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.ram{
+    color: rgb(29, 29, 29);
+    padding: 20px;
+    background-color: rgb(180, 249, 155);
+    border-radius: 20px;
+    box-shadow: 0px,0px,10px,2px;
+    border-bottom: 5px solid rgba(96, 98, 97, 0.483);
+    transition: all 0.3s;
+}
+.ram:hover{
+    transform: translateY(-8px);
+    border-bottom: 4px solid green;
+}
+/* how it work end */
+/* client stsrt */
+#client{
+    background-color: rgb(231, 229, 226);
+    height: 400px;
+}
+.clide{
+    padding: 20px;
+    background-color: rgb(246, 253, 214);
+    border-radius: 25px;
+    box-shadow: 0px,0px,10px,2px;
+    border-bottom: 4px solid rgb(198, 222, 201);
+    transition: all 0.3s;
+}
+.clide:hover{
+    transform: translateY(-8px);
+    border-bottom: 5px solid rgb(58, 108, 58);
+}
+/* client end */
+/* need help start */
+.address{
+    padding: 20px;
+    
+    border-top: 3px solid rgb(32, 74, 32);
+    border-bottom: 3px solid rgb(29, 71, 29);
+    box-shadow: 10px,10px,10px,4px;
+    
+    border-radius: 25px;
+    
+}
+
+/* need help end */
+/* captil start */
+.captial{
+    background-color: rgb(214, 212, 212);
+    padding-top: 40px;
+}
+.risk{
+    padding: 20px;
+    background-color: rgb(182, 225, 156);
+    border-radius: 25px;
+    box-shadow: 0px,0px,10px,2px;
+    border-bottom: 4px solid rgb(198, 222, 201);
+    transition: all 0.3s;
+}
+.risk:hover{
+    transform: translateY(-8px);
+    border-bottom: 5px solid rgb(58, 108, 58);
+}
+/* captil end */
+/* footer start */
+.footer{
+    background-color: rgba(1, 6, 1, 0.938);
+    color: #fff;
+    text-decoration: none;
+}
+/* footer end */
+/* map start */
+iframe{
+    width: 100%;
+    height: 450px;
+}
+/* map end */
+/* KYC FORM Start*/
+.KYC{ border-radius: 25px;
+    box-shadow: 0px,0px,10px,2px;
+    border-bottom: 4px solid rgb(15, 182, 34);
+    border-top: 4px solid rgb(22, 134, 22);
+}
+/* KYC FORM End */
+/* COMPLANT PAGE START */
+.assistyou{
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.ASSIST{
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+/* COMPLANT START END */
+/* Bank page start */
+.Bank{
+    padding: 0px;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0px 0px 30px 0px;
+    background: red(240, 235,235);
+    background: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    box-shadow: 0px 10px 29px 0px rgb(27, 31, 27);
+    transition-delay: 0.3s;
+    transition-timing-function: else-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(82, 78, 78) ;
+    width: 100%;
+}
+/* Bank page End */
